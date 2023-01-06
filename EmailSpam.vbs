@@ -4,11 +4,11 @@ Dim Name
 Dim Input
 Dim Input2
 Dim Input3
-User = "[Your Email]"
-Pass = "[password]"
+User = "[Your Gmail address]"
+Pass = "[Your Gmail password]"
 Name = "[Your name]"
-Input = "[Opponents Email]"
-Input2 = "[Title]"
+Input = "[Email of recipient]"
+Input2 = "[Subject]"
 Input3 = "[Body]"
 EmailSubject = (""& Input2)
 EmailBody = (""& Input3)
