@@ -4,12 +4,12 @@ Dim Name
 Dim Input
 Dim Input2
 Dim Input3
-X=MsgBox("Welcome. To log in Please Click OK and enter your G-mail & pass.",0,"EmailSpamBot V1.0")
-User = InputBox("Enter your G-mail:")
-Pass = InputBox("Enter Password:"& vbCrLf & ""& vbCrLf & "Please note passwords are NOT stored in this script and are case sensitive.")
-Name = InputBox("Enter Name:")
-Input = InputBox("Enter e-mail of victim:")
-Input2 = InputBox("Enter title:")
+X=MsgBox("Welcome! To begin, click OK and follow the instructions provided.",0,"Email Spam Bot v1.0")
+User = InputBox("Enter your Gmail address:")
+Pass = InputBox("Enter your Gmail password:"& vbCrLf & ""& vbCrLf & "Please note passwords are NOT stored in this script and are case sensitive.")
+Name = InputBox("Enter your name:")
+Input = InputBox("Enter email of recipient:")
+Input2 = InputBox("Enter subject:")
 Input3 = InputBox("Enter message:")
 EmailSubject = (""& Input2)
 EmailBody = (""& Input3)
@@ -21,7 +21,7 @@ Const SMTPServer = "smtp.gmail.com"
 'Const SMTPLogon = ""
 'Const SMTPPassword = ""
 Const SMTPSSL = True
-Const SMTPPort = 465
+Const SMTPPort = 456
 
 Const cdoSendUsingPickup = 1  'Send message using local SMTP service pickup directory.
 Const cdoSendUsingPort = 2  'Send the message using SMTP over TCP/IP networking.
