@@ -29,11 +29,11 @@
 - If the configuration failed, run "Manual.vbs" instead.
 - You will not be able to automatically send emails if the server rejects your requests.
 
-###How to use
+### How to use
 - In order to use this Spambot, you have to configure the "EmailSpam.vbs" file (see "Configuration" above).
 - After the configuration is done, you can now run the "SpamStart.bat" file.
 
-###SpamStart.bat
+### SpamStart.bat
 - The batch file will start a new commandpromt window (cmd.exe) and start to send emails to your opponents email address.
 - Approximately every second one emails will be sent. It will take about a minute until the gmail server blocks your request.
 - The batch file will automatically wait for 5 minutes until the server is open again.
