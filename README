@@ -14,13 +14,13 @@
 
 ### Configuration
 - Open "EmailSpam.vbs" with your preffered text editor (Don't double click it)
-- In line 7, replace [Your Email] with your gmail address. (Example: User = "example@gmail.com" )
-- In line 8, replace [password] with your gmail account's password. (Example:  Pass = "StrongPassword15" )
+- In line 7, replace [Your Gmail address] with your Gmail address. (Example: User = "example@gmail.com" )
+- In line 8, replace [Your Gmail password] with your Gmail account's password. (Example:  Pass = "StrongPassword15" )
   - Note: The password is case sensitive and will NOT be send with the email. 
 - In line 9, replace [Your name] with your name. (Example: Name = "Peter Clark" )
   - Note: Don't use your actual name. Use a nickname!
-- In line 10, replace [Opponent Email] with the email you want to spam. (Example: Input = "example.mail@gmail.com" )
-- In line 11, replace [Title] with the title of the spam email. (Example: Input2 = "This is Spam" )
+- In line 10, replace [Email of recipient] with the email you want to spam. (Example: Input = "example.mail@gmail.com" )
+- In line 11, replace [Subject] with the subject of the spam email. (Example: Input2 = "This is Spam" )
 - In line 12, replace [Body] with what the email should include. (Example: Input3 = "Spam Spam Spam Spam Spam" )
   - Note: Do NOT use HTML to  write the email's body. The body is only for plain text.
 - Save the file.
